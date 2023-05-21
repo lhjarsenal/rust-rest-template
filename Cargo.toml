@@ -1,0 +1,20 @@
+[package]
+name = "btc-dex"
+version = "0.1.0"
+edition = "2021"
+description = "BTC DEX"
+license = "Apache-2.0"
+authors = ["lihongjie arsenallihongjie<@gmail.com>"]
+keywords = ["btc", "dex"]
+
+[dependencies]
+rocket = "0.4.10"
+rocket_contrib = "0.4"
+rocket_cors = "0.5.2"
+
+#rpc client
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+
+
+
